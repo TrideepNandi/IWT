@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .highlight {
+            background-color: yellow;
+            color: red;
+            width: 200px;
+            height: 100px;
+        }
+        .new-styles {
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="demoElement" class="highlight">This is a demo element.</div>
+    <div id="classDisplay">Current Classes: <span id="currentClasses"></span></div>
+    <br>
+    <button onclick="changeStyle()">Change Inline Style</button>
+    <button onclick="getComputedStyles()">Get Computed Styles</button>
+    <button onclick="addClass()">Add CSS Class</button>
+    <button onclick="removeClass()">Remove CSS Class</button>
+    <button onclick="getDimensions()">Get Width & Height</button>
+
+    <script src="dom_styles.js"></script>
+</body>
+</html>
